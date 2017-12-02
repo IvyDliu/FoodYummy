@@ -1,0 +1,19 @@
+<!-- extend from base layout -->
+{% extends "myrecipe.html" %}
+{% block right_block %}
+	<div class="animate-box text-center" style="height:600px">
+	
+	<form method="POST" action="">
+		<div class="form-group" >
+			Username: <input type="text" placeholder="Enter Username" name="username" maxlength="30" required>
+		</div>
+
+		<div class="form-group" >
+			 Password: <input type="text" placeholder="Enter Password" name="password" maxlength="100" required>
+		</div>
+				<p> <input type="submit" class = "btn btn-primary" value="Submit"></p>
+		</div>
+		
+	</form>
+	</div>
+{% endblock %}

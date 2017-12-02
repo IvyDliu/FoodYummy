@@ -1,0 +1,1131 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jqu",
+				"jquery"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"F",
+				"FoodYummy"
+			],
+			[
+				"S",
+				"SubmitField"
+			],
+			[
+				"login",
+				"login_required"
+			],
+			[
+				"logout",
+				"logout_user"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"add",
+				"add_user"
+			],
+			[
+				"us",
+				"username"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"m",
+				"min-height"
+			],
+			[
+				"p_clos",
+				"p_closest"
+			],
+			[
+				"vertic",
+				"vertices"
+			],
+			[
+				"f",
+				"for	for (…) {…}"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"gete",
+				"getElementsByClassName"
+			],
+			[
+				"blockq",
+				"blockquote"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"top",
+				"top-header-wrapper"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"st",
+				"stay-updated"
+			],
+			[
+				"subti",
+				"subtitle"
+			],
+			[
+				"sub",
+				"subtitle"
+			],
+			[
+				"bu",
+				"buttons"
+			],
+			[
+				"butt",
+				"buttons"
+			],
+			[
+				"if",
+				"ifeq"
+			],
+			[
+				"p",
+				"prototype"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"s",
+				"__Super__"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"pre",
+				"prefixSum"
+			],
+			[
+				"make",
+				"makeN"
+			],
+			[
+				"STR",
+				"string11"
+			],
+			[
+				"tru",
+				"TRUE"
+			],
+			[
+				"tei",
+				"templateinvocation"
+			],
+			[
+				"te",
+				"templatedef"
+			],
+			[
+				"in",
+				"INNERTEXT"
+			],
+			[
+				"de",
+				"def_name"
+			],
+			[
+				"def",
+				"def_name"
+			],
+			[
+				"char",
+				"charAt"
+			],
+			[
+				"temp",
+				"templateinvocation"
+			],
+			[
+				"eval",
+				"evalWML"
+			],
+			[
+				"ca",
+				"case"
+			],
+			[
+				"IN",
+				"INNERTEXT"
+			],
+			[
+				"en",
+				"env1"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"bin",
+				"bindings"
+			],
+			[
+				"b",
+				"notBody"
+			],
+			[
+				"d",
+				"dparams"
+			],
+			[
+				"resl",
+				"result_str"
+			],
+			[
+				"bi",
+				"binding_names"
+			],
+			[
+				"call",
+				"call_fn"
+			],
+			[
+				"evale",
+				"evalDef"
+			],
+			[
+				"bing",
+				"bindings"
+			],
+			[
+				"template",
+				"templateinvocation"
+			],
+			[
+				"pars",
+				"parseTemplateDef"
+			],
+			[
+				"eva",
+				"evalWML"
+			],
+			[
+				"inn",
+				"INNERDTEXT"
+			],
+			[
+				"out",
+				"OUTERTEXT"
+			],
+			[
+				"cre",
+				"createEnv"
+			],
+			[
+				"parseI",
+				"parseTemplateInvocation"
+			],
+			[
+				"defa",
+				"def_args"
+			],
+			[
+				"Str",
+				"str2"
+			],
+			[
+				"prin",
+				"printAST"
+			],
+			[
+				"par",
+				"parseTemplateDef"
+			],
+			[
+				"fiel",
+				"fieldIteration"
+			],
+			[
+				"ts",
+				"TSTART"
+			],
+			[
+				"tem",
+				"templatedef"
+			],
+			[
+				"c",
+				"continue"
+			],
+			[
+				"TR",
+				"treeString"
+			],
+			[
+				"parse",
+				"parseXtext"
+			],
+			[
+				"parseT",
+				"parseTemplateDef"
+			],
+			[
+				"TA",
+				"targNode"
+			],
+			[
+				"ite",
+				"itextNode"
+			],
+			[
+				"rs",
+				"rString"
+			],
+			[
+				"pae",
+				"parseTargs"
+			],
+			[
+				"pas",
+				"parseItext"
+			],
+			[
+				"parsed",
+				"parseTemplateDef"
+			],
+			[
+				"inner",
+				"INNERTEXT"
+			],
+			[
+				"TP",
+				"tparam"
+			],
+			[
+				"TEIN",
+				"templateinvocation"
+			],
+			[
+				"OUTER",
+				"outer"
+			],
+			[
+				"pa",
+				"pair2"
+			],
+			[
+				"is",
+				"isFound"
+			],
+			[
+				"fri",
+				"friends"
+			],
+			[
+				"new",
+				"newfriend"
+			],
+			[
+				"show",
+				"showprofile"
+			],
+			[
+				"get",
+				"getValue"
+			],
+			[
+				"ge",
+				"getKey"
+			],
+			[
+				"fi",
+				"friendsInfo"
+			],
+			[
+				"co",
+				"coindex"
+			],
+			[
+				"write",
+				"writeList"
+			],
+			[
+				"line",
+				"line"
+			],
+			[
+				"isv",
+				"isValidExpression"
+			],
+			[
+				"lin",
+				"line"
+			],
+			[
+				"ex",
+				"exprs3"
+			],
+			[
+				"exp",
+				"exprs2"
+			],
+			[
+				"nex",
+				"nextToken"
+			],
+			[
+				"isV",
+				"isValidCommand"
+			],
+			[
+				"pi",
+				"printf	printf …"
+			],
+			[
+				"str",
+				"strcpy"
+			],
+			[
+				"inpu",
+				"inputLine"
+			],
+			[
+				"A",
+				"Arrays"
+			],
+			[
+				"di",
+				"divisor"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"result",
+				"result_tmp"
+			],
+			[
+				"cop",
+				"copyOf"
+			],
+			[
+				"res",
+				"result_tmp"
+			],
+			[
+				"DI",
+				"dividand"
+			],
+			[
+				"TE",
+				"temp"
+			],
+			[
+				"TO",
+				"toString"
+			],
+			[
+				"sY",
+				"System"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"divi",
+				"dividand"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/__init__.py",
+			"settings":
+			{
+				"buffer_size": 810,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.py",
+			"settings":
+			{
+				"buffer_size": 841,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/templates/auth/login.html",
+			"settings":
+			{
+				"buffer_size": 1175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "manage.py",
+			"settings":
+			{
+				"buffer_size": 255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/main/forms.py",
+			"settings":
+			{
+				"buffer_size": 644,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models.py",
+			"settings":
+			{
+				"buffer_size": 2555,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pc in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 921.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/FoodYummy.wsgi",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/access.log",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/conf/httpd.conf",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/error.log",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/conf/extra/httpd-mpm.conf",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/install.log",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/httpd.pid",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/mydish.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/myfollowing.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/auth/login.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/uploaddish.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/views.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/recipe.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/config.rb",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/homepage.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/models.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/auth/views.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/myrecipe.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/myspace.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/js/homepage.js",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/uploadrecipie.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/css/homepage.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/js/jquery.min.js",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/auth/forms.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/auth/register.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/config.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/forms.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/register.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/loginviews.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/__init__.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/js/bootstrap.min.js",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/includes/formcheck.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/index.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/views.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/manage.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/auth/__init__.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/tests/test_user_model.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/loginlayout.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/css/login.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/css/bootstrap.min.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/THIRD-PARTY-NOTICES.dump",
+		"/C/xampp/htdocs/mySlim/index.php",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/Apache24/htdocs/mySlim/index.php",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/dbtest.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/__init__.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/login.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/loginviews.py",
+		"/C/xampp/htdocs/mySlim/composer.json",
+		"/Q/Video House/vid/fanvid ntvs/Archives/we want war.mp4.sfk",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/config.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/run.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/templates/index.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/templates/login.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/templates/base.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/views.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/app/forms.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/new.sublime-project",
+		"/Q/Small games/超苦逼冒险者v0.32/超苦逼冒险者v0.32.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/project guides/css/bootstrap.min.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/project guides/index.html.dump",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/project guides/css/bootstrap-theme.min.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/project guides/css/style.css",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/Apache24/conf/httpd.conf",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/httpd-2.4.29/build/install.sh",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/307proj/httpd-2.4.29/README",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/WelcomePage.html.dump",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/project guides/index.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/1509915339.layoutit.html.dump",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/1509915339.layoutit.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/WelcomePage.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/307 mini HW1/WelcomePage.html",
+		"/C/Users/HiroAAA/Documents/Python Scripts/drawSample.py",
+		"/C/Users/HiroAAA/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/417 Robotics/RRT_Assignment/rrt_planner.py",
+		"/C/Users/HiroAAA/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/Q/Books/Skill Walkthru/Languages/法语/flac/package.xml.dump",
+		"/C/Users/HiroAAA/Documents/Python Scripts/hillclimbing.py",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/items.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/stronghold.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/characters.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/en/text/game/characters.stringtable.dump",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/en/text/game/characters.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/interactables.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/gui.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data_expansion1/localized/sigua/text/game/characters.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/backstory.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/debug.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data_expansion2/localized/sigua/text/game/characters.stringtable",
+		"/X/BaiduYunDownload/POE/patch/mod companions/check2.txt",
+		"/X/BaiduYunDownload/POE/patch/mod companions/eder1",
+		"/X/BaiduYunDownload/POE/patch/mod companions/eder2.txt",
+		"/X/BaiduYunDownload/POE/patch/mod companions/hiravas2.txt",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/itemmods.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/loadingtips.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/unassigned.stringtable",
+		"/C/Users/HiroAAA/Saved Games/POE The White March Part 1/Pillars of Eternity/PillarsOfEternity_Data/data/localized/sigua/text/game/factions.stringtable",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/test.html",
+		"/Q/Books/Skill Walkthru/Languages/法语/flac/package.xml",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/Comp307/WelcomePage",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/MyDES.java",
+		"/X/BufferZone/连载中的电视/Preacher/S2/Preacher.S02E13.1080p.WEB-DL.DD5.1.H264-RARBG/Preacher.S02E13.1080p.WEB-DL.DD5.1.H264-RARBG.srt",
+		"/X/BufferZone/连载中的电视/Preacher/S2/Preacher.S02E10.1080p.WEB-DL.DD5.1.H264-RARBG/Preacher.S02E10.1080p.WEB-DL.DD5.1.H264-RARBG-SDH.srt",
+		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/Buffy The Vampire Slayer (TV-Series, 1997-2003)/Season 5/Buffy.S05E07.Fool.For.Love + C.srt",
+		"/Q/Video House/TV/Battlestar.Galactica-All.In.One-720p.bluray.x264.AC3-5.1-PeN/BSG-season 3/BSG-s03e20-720p.BluRay.x264.AC3-5.1-PeN.ass",
+		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/Buffy The Vampire Slayer (TV-Series, 1997-2003)/Season 3/Buffy.S03E03.Faith.Hope.And.Trick.srt",
+		"/Q/Video House/TV/Battlestar.Galactica-All.In.One-720p.bluray.x264.AC3-5.1-PeN/BSG-season 1/BSG-s01e08-720p.HDDVD.x264.AC3-5.1-PeN.ass",
+		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/Buffy The Vampire Slayer (TV-Series, 1997-2003)/Season 6/Buffy.S06E05.Life.Serial.srt",
+		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/Buffy The Vampire Slayer (TV-Series, 1997-2003)/Season 5/Buffy.S05E21.The.Weight.Of.The.World.srt",
+		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/Buffy The Vampire Slayer (TV-Series, 1997-2003)/Season 5/Buffy.S05E02.Real.Me + C.ass",
+		"/Q/Google Drive/All About Buffy/Buffy.the.Vampire.Slayer netflix_in_use/Buffy.the.Vampire.Slayer.S05E04.WEBRip.Netflix.en.srt",
+		"/X/BufferZone/连载中的电视/Preacher/S2/Preacher.S02E12.1080p.HDTV.x264-BRISK[rarbg]/Preacher.S02E12.720p.HDTV.x264-AVS.大家字幕组.简体&英文.ass",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/test307.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/packet info 307.txt",
+		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/French Dub/Buffy.S01.FRENCH.REMASTERED.HDTV.XViD.MP3-JIMIJIMS/Buffy S1E01.FR.srt",
+		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/French Dub/Buffy.S01.FRENCH.REMASTERED.HDTV.XViD.MP3-JIMIJIMS/episode 1/Buffy S1E01.FR.srt",
+		"/Q/Video House/TV/Veronica Mars/Veronica Mars säsong 1/Veronica Mars 1.01 - Pilot.Eng.srt",
+		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/French Dub/Buffy.S01.FRENCH.REMASTERED.HDTV.XViD.MP3-JIMIJIMS/episode 1/s101 transcript.txt",
+		"/C/ProgramData/Microsoft/ClickToRun/{9AC08E99-230B-47e8-9721-4577B7F124EA}/C2RManifest.PowerPivot.PowerPivot.x-none.msi.16.x-none.xml",
+		"/C/Users/HiroAAA/Desktop/test.xml",
+		"/X/BufferZone/连载中的电视/House MD Season 1, 2, 3, 4, 5, 6, 7 & 8 + Extras DVDRip TSV/Season 3/House MD Season 3 Episode 06 - Que Sera Sera.srt",
+		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/Buffy The Vampire Slayer (TV-Series, 1997-2003)/Season 5/Buffy.S05E08.Shadow.srt",
+		"/Q/Video House/TV/Battlestar.Galactica-All.In.One-720p.bluray.x264.AC3-5.1-PeN/BSG-season 2/BSG-s02e19-720p.BluRay.x264.AC3-5.1-PeN.ass",
+		"/Q/Books/Novels/《新世纪诗典·第二季[精品]》.epub",
+		"/X/BufferZone/连载中的电视/Preacher/Preacher.S02E02.720p.HDTV.x264-AVS[rarbg]/Preacher.S02E02.720p.HDTV.x264-AVS.简体.srt",
+		"/X/BufferZone/连载中的电视/Preacher/Preacher.S02E01.720p.HDTV.x264-AVS[rarbg]/Preacher.S02E01.720p.HDTV.ass",
+		"/Q/Video House/TV/Battlestar.Galactica-All.In.One-720p.bluray.x264.AC3-5.1-PeN/BSG-season 1/BSG-s01e09-720p.HDDVD.x264.AC3-5.1-PeN.ass",
+		"/Q/Video House/TV/Angel Complete Series Season 1,2,3,4,5 + Extras, Subs/Season 3/Angel.S03E01.Heartthrob.srt",
+		"/Q/Video House/TV/Battlestar.Galactica-All.In.One-720p.bluray.x264.AC3-5.1-PeN/BSG-season 2/Battlestar.Galactica.S02E01.720p.BluRay.x264-SiNNERS.ass"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"access",
+			"core",
+			"wsgi",
+			"profile",
+			"log in",
+			"login",
+			"filename='/",
+			"../static",
+			"url_for",
+			"url",
+			"{{",
+			"title",
+			"homepa",
+			"font",
+			"slick",
+			"slick/",
+			"img",
+			"slick",
+			"stati",
+			"static/static",
+			"static",
+			"slick/",
+			" sourceMappingURL=bootstrap.css.map",
+			")\n",
+			"db",
+			"content",
+			"sig",
+			"print",
+			"edges",
+			" 	  ",
+			"random",
+			"G[",
+			"nodes",
+			"希",
+			"母",
+			"艾",
+			"杜",
+			">\n",
+			"艾",
+			"UFO",
+			"li a",
+			" a ",
+			"color",
+			"script",
+			"sid",
+			"backgrou",
+			"body",
+			"prompt",
+			"top-header",
+			"span",
+			"name",
+			"kill",
+			"RELIEF",
+			"小丑",
+			"上帝",
+			"sis",
+			"没直",
+			"没直说",
+			"angel",
+			"ben",
+			"CONNECTION",
+			"doesn",
+			"does",
+			"kid",
+			"bollock",
+			"}\n",
+			"第",
+			"”",
+			"“",
+			"ass",
+			"spike",
+			"ass",
+			"mock",
+			"amish",
+			"阿",
+			"amish",
+			"use the for",
+			"chuck",
+			"form",
+			"gneration",
+			"stand",
+			"genera",
+			"breth",
+			"warn",
+			"brethren",
+			"注",
+			"stake",
+			"cemet",
+			"cemete",
+			"aure",
+			"注",
+			"布",
+			"286",
+			"cast",
+			"gotta",
+			"witch",
+			"God",
+			"tri",
+			"sunnydale",
+			"god",
+			"注",
+			"well",
+			"master",
+			"watcher",
+			"knock",
+			"爬",
+			"站",
+			"knock",
+			"站",
+			"爬",
+			"knock",
+			"hole",
+			"%",
+			"console",
+			"con",
+			"closure",
+			"trim",
+			"unde",
+			"console",
+			"+",
+			"入",
+			"itextNode",
+			"str",
+			"a.field",
+			"curren",
+			"position",
+			"inco",
+			"stack"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"filename='",
+			"{{url_for(\"static\")}}",
+			" ../static/css",
+			" ../static/",
+			" ",
+			"\"",
+			"holed",
+			"Γ",
+			" ",
+			"λ",
+			"xtextNode",
+			"a[field]",
+			"index",
+			"path",
+			"makeXXX",
+			"partition",
+			"node",
+			"unshift",
+			"shift",
+			"unshift",
+			"makeXXX",
+			"fHelper",
+			"frname",
+			"",
+			"result_tmp",
+			"temp",
+			"result_tmp",
+			"s2",
+			"s1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/__init__.py",
+					"settings":
+					{
+						"buffer_size": 810,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								810,
+								810
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config.py",
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								503,
+								503
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/templates/auth/login.html",
+					"settings":
+					{
+						"buffer_size": 1175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								739,
+								739
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "manage.py",
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/main/forms.py",
+					"settings":
+					{
+						"buffer_size": 644,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								93,
+								93
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 163.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/models.py",
+					"settings":
+					{
+						"buffer_size": 2555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1487,
+								1487
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 259.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": false
+}

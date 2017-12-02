@@ -1,0 +1,36 @@
+<!-- extend from base layout -->
+{% extends "homepage.html" %}
+{% include 'includes/messages.html' %}
+{% block bottom_empty %}
+<div class="container">
+<div class="animate-box text-center" style="height:700px; margin-top:10%">
+	<center><h1> Log In </h1></center><br>
+	First Time User? <a href="register">Register</a>
+<!-- 	<form method="POST"  action="">
+		<div class="form-group" >
+			Email: <input type="text" placeholder="Enter Username" name="email" maxlength="30" required>
+		</div>
+
+		<div class="form-group" >
+			 Password: <input type="password" placeholder="Enter Password" name="password" maxlength="100" required>
+		</div>
+				<p class="text-center"> <input type="submit" class = "btn btn-primary" value="Submit"></p>
+		</div>
+		
+	</form> -->
+<form method='post'>
+{{ form.csrf_token }}
+{% for field in form if field.name != 'csrf_token' %}
+<div class='form-group'>{{field.label}} {{field}}</div>
+{% if field.errors %}
+	{%  for error in field.errors %}
+	<div class="field_error">{{ error }}</div>
+	{%  endfor %}
+{% endif %}
+{%  endfor %}
+<p class="text-center"> <input type="submit" class = "btn btn-primary" value="Submit"></p>
+</form>
+
+</div>
+</div>
+{% endblock %}

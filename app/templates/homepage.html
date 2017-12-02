@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>FoodYummy</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- CSS
+        ================================================ -->
+        <link rel="stylesheet" type="text/css" href=" ../static/css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href=" ../static/css/slick-theme.css"/>
+        <!-- favicon -->
+        <link rel="icon" href="favicon.jpg">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Kalam|Lekton|Lobster+Two|Indie+Flower|Poiret+One" rel="stylesheet">
+        <!-- bootstrap.min css -->
+		<link rel="stylesheet" href="../static/css/bootstrap.min.css">
+        <!-- Font-awesome.min css -->
+		<link rel="stylesheet" href="../static/css/font-awesome.min.css">
+        <!-- Main Stylesheet -->
+        <link rel="stylesheet" href="../static/css/animate.min.css">
+
+		<link rel="stylesheet" href="../static/css/homepage.css">
+        <!-- Responsive Stylesheet -->
+		<link rel="stylesheet" href="../static/css/responsive.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
+        <!-- Js -->
+        <script src="../static/js/vendor/modernizr-2.6.2.min.js"></script>
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+        <script>window.jQuery || document.write('<script src="../static/js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+        <script src="../static/js/jquery.nav.js"></script>
+        <script src="../static/js/jquery.sticky.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/plugins.js"></script>
+        <script src="../static/js/wow.min.js"></script>
+        <script src="../static/js/homepage.js"></script>
+        <script src=" ../static/js/slick.min.js"></script>
+    </head>
+	<body>
+	<!--
+	header-img start 
+	============================== -->
+    <section id="hero-area">
+      <img class="img-responsive" src="../static/images/spaghetti.jpg" alt="">
+    </section>
+	<!--
+    Header start 
+	============================== -->
+	<nav id="navigation">
+               
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <nav class="navbar navbar-default">
+                          <div class="container-fluid">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                                  <a class="navbar-brand" href="#">
+                                    FOOD YUMMY
+                                  </a>
+
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="myNavbar">
+                              <ul class="nav navbar-nav navbar-right" id="top-nav">
+                                <li><a href="{{url_for('main.dashboard')}}">HOME</a></li>
+                                  <li><a href="{{url_for('main.index')}}">SEARCH</a></li>
+                                <li><a href="#about-us">ABOUT US</a></li>
+                                <li><a href="#contact-us">CONTACT</a></li>
+                                  <li>
+                                  {% if current_user.is_authenticated %}
+                                  <button class="btn btn-default" onclick="window.location.href='{{ url_for('auth.logout') }}'">LOG OUT</button>
+									 {% else %}
+									 <button class="btn btn-default" onclick="window.location.href='{{ url_for('auth.login') }}'">LOG IN</button>
+									{% endif %}
+                              </li></ul>
+                            </div><!-- /.navbar-collapse -->
+                          </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+	</nav><!-- header close -->
+   <!-- Slider -->
+ {% block bottom_empty %}
+<section id="slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="title">
+                            <h3>Popular <span>Recipes</span></h3>
+                        </div>
+                        <div class="slick-slider">
+                            <div><img src="../static/images/slide1.jpg" /></div>
+                            <div><img src="../static/images/slide2.jpg" /></div>
+                            <div><img src="../static/images/slide3.jpg" /></div>
+                            <div><img src="../static/images/slide4.jpg" /></div>
+                            <div><img src="../static/images/slide5.jpg" /></div>
+                            <div><img src="../static/images/slide6.jpg" /></div>
+                            <div><img src="../static/images/slide7.jpg" /></div>
+                        </div>
+
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .container close -->
+    </section><!-- slider close --> 
+
+
+    <!-- #call-to-action close -->
+    <!--
+    blog start
+    ============================ -->
+    <section id="blog">
+        <div class="container">
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+
+                        <h1 class="heading">Search <span>for a Recipe</span></h1><br>
+                        <div class="search">
+
+                            <label for="id_label_multiple" style="color: white;">
+                                Select the region
+
+                                <select class="js-example-basic-multiple js-states form-control" id="id_label_multiple">
+                                    <option value="AL">Canadian</option>
+                                    <option value="WY">Japanese</option>
+                                    <option value="WY">Indian</option>
+                                    <option value="AL">Chinese</option>
+                                    <option value="AL">French</option>
+                                </select>
+                            </label>
+
+                            <label for="id_label_multiple2" style="color: white;">
+                                Select the category
+                                <select class="js-example-basic-multiple2 js-states form-control" id="id_label_multiple2" name="category[]">
+                                    <option value="AL">Dessert</option>
+                                    <option value="WY">Meal</option>
+                                </select>
+
+                            </label>
+                            <label for="id_label_multiple3" style="color: white;">
+                                Select the main ingredient
+                                <select class="js-example-basic-multiple3 js-states form-control" id="id_label_multiple3" name="main-ing[]">
+                                    <option value="AL">pork</option>
+                                    <option value="WY">rice</option>
+                                    <option value="AL">chicken</option>
+                                    <option value="AL">beef</option>
+                                </select>
+
+                            </label>
+
+
+                        </div>
+
+
+
+                        <div class="search-wrap">
+
+
+
+                            <form role="search" method="get" class="search-form" action="#">
+                                <label>
+                                    <br>
+                                    <span class="hide-content" style="color: white;">Search for:</span>
+                                    <input type="search" class="search-field" placeholder="a recipe" value="" name="s" title="Search for:" autocomplete="off">
+                                </label>
+                                <input type="submit" class="search-submit" value="Search">
+                            </form>
+
+
+                        </div> <!-- end search wrap -->
+
+
+
+
+                        <ul>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
+                                <div class="blog-img">
+                                    <img src="../static/images/search/blog-img-1.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Homestyle Chicken Pot Pie</h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="400ms">
+                                <a href="/recipe/Citrus_Shortbread_Cookies"><div class="blog-img">
+                                    <img src="../static/images/Citrus_Shortbread_Cookies.jpg" alt="blog-img">
+                                </div></a>
+                                <div class="content-right">
+                                    <h3>Citrus Shortbread Cookies</h3>
+                                    <p>This recipe was given to me by my mother-in-law, one of the best cooks I know...</p>
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="500ms">
+                                <div class="content-left">
+                                    <h3>Homestyle Chicken Pot Pie</h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+                                </div>
+                                <div class="blog-img-2">
+                                    <img src="../static/images/search/blog-img-3.jpg" alt="blog-img">
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="600ms">
+                                <div class="content-left">
+                                    <h3>Homestyle Chicken Pot Pie</h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+                                </div>
+                                <div class="blog-img-2">
+                                    <img src="../static/images/search/blog-img-4.jpg" alt="blog-img">
+                                </div>
+                            </li>
+                            <li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="700ms">
+                                <div class="blog-img">
+                                    <img src="../static/images/search/blog-img-5.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Homestyle Chicken Pot Pie</h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+                                </div>
+                            </li>
+                            <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="800ms">
+                                <div class="blog-img">
+                                    <img src="../static/images/search/blog-img-6.jpg" alt="blog-img">
+                                </div>
+                                <div class="content-right">
+                                    <h3>Homestyle Chicken Pot Pie</h3>
+                                    <p>Prepared in true New England fash-ion. Tender all-white meat chicken simmered...</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #blog close -->
+
+
+    <!--
+    about-us start
+    ============================== -->
+    <section id="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms" >About <span>FoodYummy</span> </br>
+                        </h1>
+                        <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms"> A website for you to explore world wide recipes.</p>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section>
+
+    <section id="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms"> SUBSCRIBE <span>to our</span> NEWSLETTER</h1><br>
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Enter your email to subscribe...">
+                                    <div class="input-group-addon">
+                                        <button class="btn btn-default" type="submit">subscribe</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+        </div><!-- .containe close -->
+    </section><!-- #subscribe close -->
+    <!--
+    CONTACT US  start
+    ============================= -->
+    <section id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="block">
+                        <h1 class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms"><span>CONTACT US</span></h1><br>
+                        <form>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your Name">
+                            </div>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="800ms">
+                                <input type="text" class="form-control" placeholder="Your Email">
+                            </div>
+                            <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1000ms">
+                                <textarea class="form-control" rows="3" placeholder="And your message :)"></textarea>
+                            </div>
+                        </form>
+                        <a class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" href="#" role="button">send your message</a>
+                    </div>
+                </div><!-- .col-md-12 close -->
+            </div><!-- .row close -->
+           
+        </div><!-- .container close -->
+    </section><!-- #contact-us close -->
+    {% endblock %}
+    <!--
+    footer  start
+    ============================= -->
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                    <div class="block wow fadeInUp"  data-wow-delay="800ms">
+                        <h3>CONTACT US<span> via</span></h3>
+                        <div class="col-md-6 info" >
+                                  <h4><i class="fa fa-phone"></i> Telephone</h4>
+                                  <p>(514)123-1234</p>
+                        </div >
+                        <div class="col-md-6 info">
+                                  <h4><i class="fa fa-envelope"></i> Email</h4>
+                                  <p>food_yummy@gmail.com</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+
+                <!-- .col-md-4 close -->
+                <div>
+                    <div class="block wow fadeInUp"  data-wow-delay="900ms">
+                        <a href="https://twitter.com/_FoodYummy_?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @_FoodYummy_</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+                <!-- .col-md-4 close -->
+            </div><!-- .row close -->
+             
+        </div><!-- .containe close -->
+    </section><!-- #footer close -->
+    <!--
+    footer-bottom  start
+    ============================= -->
+    <footer id="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="block">
+                        <p>Copyright &copy; 2017 - All Rights Reserved. Design and Developed By <span>FoodYummy</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    </body>
+</html>
