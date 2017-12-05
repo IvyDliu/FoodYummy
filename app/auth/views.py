@@ -1,5 +1,6 @@
 from flask import render_template, redirect, request, url_for, flash
 from . import auth
+from flask_login import login_user, logout_user, login_required, current_user
 from .forms import LoginForm, RegisterForm
 from ..models import User
 from ..email import send_email
@@ -15,6 +16,7 @@ def login():
 				return redirect(request.args.get('next') or url_for("main.dashboard"))
 			else:
 				error = 'Password Invalid'
+				return render_template('auth/login.html',error=error)               
 		else:
 			error = 'Username not found'
 			return render_template('auth/login.html',error=error)
@@ -29,11 +31,14 @@ def register():
 	if request.method == "POST" and form.validate():
 		user = User(email=form.email.data,
 		username=form.username.data)
+		user.password = form.password.data
 		user.save()
 		flash("You are now registered!", "success")
 		# db.session.add(user)
 		# dv.commit()
 		token = user.generate_confirmToken()
+		send_email(user.email, 'Confirm Your Account','auth/email/confirmation',user=user,token=token)
+		flash('Please check your email to confirm the account.')
 		return redirect(url_for('auth.login'))
 	return render_template('auth/register.html', form=form)
 	
