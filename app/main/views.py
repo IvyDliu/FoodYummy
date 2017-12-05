@@ -1,27 +1,15 @@
 from flask import request, render_template, session
 from . import main
-from .loginviews import is_logged_in
 from ..models import Recipe, Dish
-from flask_mail import Message
 from flask_login import login_required
 
-def send_email(to, subject, template, **kwargs):
-	msg = Message(app.config['FY_MAIL_SUBJECT_PREFIX'] + subject,
-	sender=app.config['FY_MAIL_SENDER'], recipients=[to])
-	msg.body = render_template(template + '.txt', **kwargs)
-	msg.html = render_template(template + '.html', **kwargs)
-	mail.send(msg)
-
-# from .forms import LoginForm
-
 @main.route('/', methods=['GET','POST'])
-@main.route('/index')
 def index():
 	# return render_template("profile_edit.html",menu="Edit Profile")
-   	return render_template("homepage.html")
+	return render_template("500.html",confirm="yes")
    	
 @main.route('/myspace', methods=['GET','POST'])
-@login_required
+# @login_required
 def dashboard():
 	return render_template("myspace.html")
 

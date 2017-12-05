@@ -1,0 +1,11 @@
+Dear {{ user.username }}, 
+	Hullooooo! Welcome to FoodYummy!
+	
+	To confirm your account please click on the following link:
+	{{ url_for('auth.confirm', token=token, _external=True) }}  
+	
+	Please help us develop our website!
+
+With loads of love,
+FoodYummy Team
+[ P.S. Don't reply to this email, we will not reply! ]
