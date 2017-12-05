@@ -123,9 +123,15 @@ class Recipe(db.DynamicDocument):
     title = db.StringField(max_length=120, required=True)
     author = db.ReferenceField(User, reverse_delete_rule=CASCADE)
     prl = db.StringField(required=True)
-    region = db.StringField(max_length=40)
-    ing = db.StringField(max_length=40)
-    kind = db.StringField(max_length=40)
+    desc = db.StringField(max_length=200, required=True)
+    ing = db.StringField(max_length=200, required=True)
+    step = db.StringField(required=True)
+    
+
+    region = db.StringField(max_length=40, required=True)
+    ming = db.StringField(max_length=40, required=True)
+    kind = db.StringField(max_length=40, required=True)
+
     works = db.ListField(ReferenceField(Dish))
     ts  = db.DateTimeField(default=datetime.datetime.now)
     rate = db.DecimalField(default=0.0,precision=1)
