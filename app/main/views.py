@@ -5,8 +5,8 @@ from flask_login import login_required
 
 @main.route('/', methods=['GET','POST'])
 def index():
-	# return render_template("profile_edit.html",menu="Edit Profile")
-	return render_template("500.html",confirm="yes")
+	return render_template("homepage.html")
+	# return render_template("500.html",confirm="yes")
    	
 @main.route('/myspace', methods=['GET','POST'])
 # @login_required
