@@ -27,11 +27,6 @@ body {
   background: #fff;
 }
 
-#page {overflow-x:hidden; position:relative; z-index:5;}
-
-.preloader_hide {opacity:0;}
-#preloader {position:fixed; left:50%; top:50%; width:32px; height:32px; margin:-16px 0 0 -16px; display:block;}
-
 body.fh5co-overflow {
   overflow-x: auto;
 }
@@ -1301,6 +1296,10 @@ figure figcaption {
   color:#333 !important;
 }
 #fh5co-offcanvas .fh5co-menu ul li.active > a {
+  background:none !important;
+  color:#333 !important;
+}
+.active a{
   background:none !important;
   color:#333 !important;
 }
