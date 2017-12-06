@@ -1,3 +1,4 @@
 *.DS_Store
 *.pyc
 database/diagnostic.data/metrics.interim
+database/_mdb_catalog.wt

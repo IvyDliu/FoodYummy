@@ -4,6 +4,7 @@ from flask_login import login_user, logout_user, login_required, current_user
 from .forms import LoginForm, RegisterForm
 from ..models import User
 from ..email import send_email
+# from ..email import send_email
 
 @auth.route('/login',methods = ['GET', 'POST'])
 def login():
@@ -15,14 +16,14 @@ def login():
 				login_user(user, form.remember_me.data)
 				return redirect(request.args.get('next') or url_for("main.dashboard"))
 			else:
-				error = 'Password Invalid'
-				return render_template('auth/login.html',error=error)               
+				flash('Password Invalid', "danger")
+				return render_template('auth/login.html',form=form)               
 		else:
-			error = 'Username not found'
-			return render_template('auth/login.html',error=error)
-	elif request.method == 'POST' and form.validate() == False:
-		error = "Not Validated"
-		return render_template('auth/login.html',error=error)
+			flash('Username not found')
+			return render_template('auth/login.html',form=form)
+# 	elif request.method == 'POST' and form.validate() == False:
+# 		flash("Not Validated")
+# 		return render_template('auth/login.html', form=form)
 	return render_template('auth/login.html',form=form)
 
 @auth.route('/register', methods = ['GET','POST'])
@@ -63,6 +64,7 @@ def confirm(token):
 @auth.before_app_request
 def before_request():
 	if current_user.is_authenticated:
+		current_user.ping()
 		if not current_user.confirmed \
 		and request.endpoint != 'auth' \
 		and request.blueprint != 'auth' \
