@@ -17,6 +17,7 @@ def dashboard():
 def recipe(recipe_id):
 	recipe = Recipe.objects.first()
 	if (request.method == "POST"):
+		author=recipe.author
 		value = int(request.form["rating"])
 		rate = recipe.rate
 		ppl = recipe.ppl
@@ -31,9 +32,8 @@ def recipe(recipe_id):
 # @login_required
 def uploadRecipe():
 	# if (request.method == "POST"):
-	# 	recipe = Recipe.objects(title=recipe_id)
-	# 	dish = Dish(parent=recipe.title,prl=request.form["prl"],comment=request.form["message"])
-	# 	dish.save()
+	# 	recipe = Recipe(title="request.form[""]",prl=request.form["prl"],comment=request.form["message"],author=)
+	# 	recipe.save()
 	# 	return render_template("myrecipe.html")
 	return render_template("uploadrecipe.html")
 
@@ -42,7 +42,7 @@ def uploadRecipe():
 def uploadDish(recipe_id):
 	if (request.method == "POST"):
 		recipe = Recipe.objects(title=recipe_id)
-		dish = Dish(parent=recipe.title,prl=request.form["prl"],comment=request.form["message"])
+		dish = Dish(parent=recipe.title,author="",prl=request.form["prl"],comment=request.form["message"])
 		dish.save()
 		return render_template("mydish.html")
 	return render_template("uploaddish.html")	

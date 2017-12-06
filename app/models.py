@@ -98,10 +98,7 @@ class User(db.Document):
         if data.get('confirm') != self.id:
             return False
         self.confirmed = True
-<<<<<<< HEAD
 #         db.session.add(self)
-        return True
-=======
         self.save()
         return True
 
@@ -110,7 +107,6 @@ class User(db.Document):
 
     def is_admin(self):
         return self.is_permitted(Permission.ADMIN)
->>>>>>> 43081b6b6fafd821777b5326a21fd59029477024
 
 @login_manager.user_loader
 def load_user(user_id):
