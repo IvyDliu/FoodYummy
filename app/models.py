@@ -52,6 +52,7 @@ class User(db.Document):
     p_hash = db.StringField(max_length=128,required=True)
     confirmed = db.BooleanField(default=False)
     role = db.ReferenceField(Role)
+    last_seen = db.DateTimeField(default=datetime.datetime.now)
 
     def __init__(self,**kwargs):
         super(User, self).__init__(**kwargs)
@@ -106,6 +107,10 @@ class User(db.Document):
 
     def is_admin(self):
         return self.is_permitted(Permission.ADMIN)
+    
+    def ping(self):
+    	self.last_seen = datetime.datetime.now
+    	self.save()
 
 @login_manager.user_loader
 def load_user(user_id):
