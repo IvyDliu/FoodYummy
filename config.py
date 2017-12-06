@@ -6,7 +6,7 @@ class Config:
 	SECRET_KEY = os.urandom(24)
 
 	FY_MAIL_SUBJECT_PREFIX = 'Dear User: '
-	FY_MAIL_SENDER = '[FoodYummy] <hirodddd@gmail.com>'
+	FY_MAIL_SENDER = '[FoodYummy] <duoduo.liu@mail.mcgill.com>'
 	FY_ADMIN = os.environ.get('FY_ADMIN')
 
 	@staticmethod
@@ -27,7 +27,8 @@ class DevelopmentConfig(Config):
 
 class TestingConfig(Config):
 	TESTING = True
-	MONGO_URI = 'mongodb://localhost:27017/FoodYummy'
+	# PRESERVE_CONTEXT_ON_EXCEPTION = False
+	MONGO_URI = 'mongomock://localhost:27017/testdb'
 
 config = {
 'development': DevelopmentConfig,

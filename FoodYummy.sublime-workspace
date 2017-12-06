@@ -4,12 +4,40 @@
 		"selected_items":
 		[
 			[
-				"jqu",
-				"jquery"
+				"mogo",
+				"mongoengine"
+			],
+			[
+				"is",
+				"is_permitted"
+			],
+			[
+				"per",
+				"permission"
+			],
+			[
+				"permis",
+				"permissions"
+			],
+			[
+				"ROLE",
+				"role"
+			],
+			[
+				"int",
+				"IntField"
 			],
 			[
 				"re",
-				"required"
+				"redirect"
+			],
+			[
+				"mail",
+				"Mail"
+			],
+			[
+				"jqu",
+				"jquery"
 			],
 			[
 				"F",
@@ -348,10 +376,6 @@
 				"pair2"
 			],
 			[
-				"is",
-				"isFound"
-			],
-			[
 				"fri",
 				"friends"
 			],
@@ -476,42 +500,34 @@
 	"buffers":
 	[
 		{
-			"file": "app/__init__.py",
+			"file": "app/main/views.py",
 			"settings":
 			{
-				"buffer_size": 810,
+				"buffer_size": 2139,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "config.py",
+			"file": "app/auth/views.py",
 			"settings":
 			{
-				"buffer_size": 841,
+				"buffer_size": 2949,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "app/templates/auth/login.html",
+			"file": "app/templates/auth/unconfirmed.html",
 			"settings":
 			{
-				"buffer_size": 1175,
-				"line_ending": "Unix"
+				"buffer_size": 172,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "manage.py",
+			"file": "app/templates/auth/email/confirmation.txt",
 			"settings":
 			{
-				"buffer_size": 255,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/main/forms.py",
-			"settings":
-			{
-				"buffer_size": 644,
+				"buffer_size": 315,
 				"line_ending": "Unix"
 			}
 		},
@@ -519,7 +535,32 @@
 			"file": "app/models.py",
 			"settings":
 			{
-				"buffer_size": 2555,
+				"buffer_size": 4205,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/decorators.py",
+			"settings":
+			{
+				"buffer_size": 643,
+				"line_ending": "Windows",
+				"name": "from functools import wraps"
+			}
+		},
+		{
+			"file": "tests/test_user_model.py",
+			"settings":
+			{
+				"buffer_size": 1426,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tests/test_basics.py",
+			"settings":
+			{
+				"buffer_size": 584,
 				"line_ending": "Unix"
 			}
 		}
@@ -572,6 +613,23 @@
 	},
 	"file_history":
 	[
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/__init__.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/config.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/errors.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/403.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/tests/test_basics.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/manage.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/tests/test_user_model.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/email.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/__init__.py",
+		"/Q/Google Drive/LTI4RE.txt",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/auth/login.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/forms.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/models.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/run.py",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/auth/email/confirmation.txt",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/404.html",
+		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/500.html",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/FoodYummy.wsgi",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/access.log",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/conf/httpd.conf",
@@ -581,13 +639,11 @@
 		"/Q/Documents/OneDrive/OneDrive - McGill University/Apache24/logs/httpd.pid",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/mydish.html",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/myfollowing.html",
-		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/auth/login.html",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/uploaddish.html",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/views.py",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/recipe.html",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/config.rb",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/homepage.html",
-		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/models.py",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/auth/views.py",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/myrecipe.html",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/myspace.html",
@@ -597,18 +653,13 @@
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/js/jquery.min.js",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/auth/forms.py",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/auth/register.html",
-		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/config.py",
-		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/forms.py",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/register.html",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/main/loginviews.py",
-		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/__init__.py",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/js/bootstrap.min.js",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/includes/formcheck.html",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/index.html",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/views.py",
-		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/manage.py",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/auth/__init__.py",
-		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/tests/test_user_model.py",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/templates/loginlayout.html",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/css/login.css",
 		"/Q/Documents/OneDrive/OneDrive - McGill University/FoodYummy/app/static/css/bootstrap.min.css",
@@ -689,17 +740,7 @@
 		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/French Dub/Buffy.S01.FRENCH.REMASTERED.HDTV.XViD.MP3-JIMIJIMS/episode 1/Buffy S1E01.FR.srt",
 		"/Q/Video House/TV/Veronica Mars/Veronica Mars säsong 1/Veronica Mars 1.01 - Pilot.Eng.srt",
 		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/French Dub/Buffy.S01.FRENCH.REMASTERED.HDTV.XViD.MP3-JIMIJIMS/episode 1/s101 transcript.txt",
-		"/C/ProgramData/Microsoft/ClickToRun/{9AC08E99-230B-47e8-9721-4577B7F124EA}/C2RManifest.PowerPivot.PowerPivot.x-none.msi.16.x-none.xml",
-		"/C/Users/HiroAAA/Desktop/test.xml",
-		"/X/BufferZone/连载中的电视/House MD Season 1, 2, 3, 4, 5, 6, 7 & 8 + Extras DVDRip TSV/Season 3/House MD Season 3 Episode 06 - Que Sera Sera.srt",
-		"/Q/Video House/TV/Buffy The Vampire Slayer Complete Series Season 1,2,3,4,5,6,7 + Extras/Buffy The Vampire Slayer (TV-Series, 1997-2003)/Season 5/Buffy.S05E08.Shadow.srt",
-		"/Q/Video House/TV/Battlestar.Galactica-All.In.One-720p.bluray.x264.AC3-5.1-PeN/BSG-season 2/BSG-s02e19-720p.BluRay.x264.AC3-5.1-PeN.ass",
-		"/Q/Books/Novels/《新世纪诗典·第二季[精品]》.epub",
-		"/X/BufferZone/连载中的电视/Preacher/Preacher.S02E02.720p.HDTV.x264-AVS[rarbg]/Preacher.S02E02.720p.HDTV.x264-AVS.简体.srt",
-		"/X/BufferZone/连载中的电视/Preacher/Preacher.S02E01.720p.HDTV.x264-AVS[rarbg]/Preacher.S02E01.720p.HDTV.ass",
-		"/Q/Video House/TV/Battlestar.Galactica-All.In.One-720p.bluray.x264.AC3-5.1-PeN/BSG-season 1/BSG-s01e09-720p.HDDVD.x264.AC3-5.1-PeN.ass",
-		"/Q/Video House/TV/Angel Complete Series Season 1,2,3,4,5 + Extras, Subs/Season 3/Angel.S03E01.Heartthrob.srt",
-		"/Q/Video House/TV/Battlestar.Galactica-All.In.One-720p.bluray.x264.AC3-5.1-PeN/BSG-season 2/Battlestar.Galactica.S02E01.720p.BluRay.x264-SiNNERS.ass"
+		"/C/ProgramData/Microsoft/ClickToRun/{9AC08E99-230B-47e8-9721-4577B7F124EA}/C2RManifest.PowerPivot.PowerPivot.x-none.msi.16.x-none.xml"
 	],
 	"find":
 	{
@@ -717,6 +758,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"obje",
+			"（[^（]+[）$]",
+			"\\([^\\(]+[\\)$]",
+			"\\[[^\\[]+[\\]$]",
+			"Celine: ",
+			"Julien: ",
+			"Nana: ",
+			"Lulu: ",
+			"uncon",
 			"access",
 			"core",
 			"wsgi",
@@ -835,23 +885,15 @@
 			"closure",
 			"trim",
 			"unde",
-			"console",
-			"+",
-			"入",
-			"itextNode",
-			"str",
-			"a.field",
-			"curren",
-			"position",
-			"inco",
-			"stack"
+			"console"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"",
 			"filename='",
 			"{{url_for(\"static\")}}",
 			" ../static/css",
@@ -891,86 +933,91 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/__init__.py",
+					"file": "app/main/views.py",
 					"settings":
 					{
-						"buffer_size": 810,
+						"buffer_size": 2139,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								810,
-								810
+								185,
+								185
 							]
 						],
 						"settings":
 						{
+							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "config.py",
+					"file": "app/auth/views.py",
 					"settings":
 					{
-						"buffer_size": 841,
+						"buffer_size": 2949,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								503,
-								503
+								1220,
+								1220
 							]
 						],
 						"settings":
 						{
+							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 660.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "app/templates/auth/login.html",
+					"file": "app/templates/auth/unconfirmed.html",
 					"settings":
 					{
-						"buffer_size": 1175,
+						"buffer_size": 172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								739,
-								739
+								172,
+								172
 							]
 						],
 						"settings":
 						{
+							"auto_name": "",
+							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -980,24 +1027,25 @@
 				},
 				{
 					"buffer": 3,
-					"file": "manage.py",
+					"file": "app/templates/auth/email/confirmation.txt",
 					"settings":
 					{
-						"buffer_size": 255,
+						"buffer_size": 315,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
+								315,
+								315
 							]
 						],
 						"settings":
 						{
+							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1007,58 +1055,113 @@
 				},
 				{
 					"buffer": 4,
-					"file": "app/main/forms.py",
-					"settings":
-					{
-						"buffer_size": 644,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								93,
-								93
-							]
-						],
-						"settings":
-						{
-							"origin_encoding": "ASCII",
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 163.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "app/models.py",
 					"settings":
 					{
-						"buffer_size": 2555,
+						"buffer_size": 4205,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1487,
-								1487
+								2739,
+								2739
 							]
 						],
 						"settings":
 						{
+							"is_init_dirty_state": false,
 							"origin_encoding": "ASCII",
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 300.0,
+						"translation.y": 420.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/decorators.py",
+					"settings":
+					{
+						"buffer_size": 643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"auto_name": "from functools import wraps",
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "tests/test_user_model.py",
+					"settings":
+					{
+						"buffer_size": 1426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "tests/test_basics.py",
+					"settings":
+					{
+						"buffer_size": 584,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"origin_encoding": "ASCII",
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

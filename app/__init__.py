@@ -1,11 +1,11 @@
 from flask import Flask, render_template
-from flask_mail import Mail
 from flask_mongoengine import MongoEngine, MongoEngineSessionInterface
+from flask_mail import Mail
 from config import config
 from flask_login import LoginManager
 
-db = MongoEngine()
 mail = Mail()
+db = MongoEngine()
 login_manager = LoginManager()
 login_manager.session_protection = 'strong'
 login_manager.login_view = 'auth.login'
